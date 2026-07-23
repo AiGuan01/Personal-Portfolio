@@ -519,11 +519,11 @@ function renderSkills(lang){
 function renderContact(lang){
   const c = CONTENT[lang].contact;
   document.getElementById('contactLinks').innerHTML = `
-    <a href="mailto:${c.email}">${ICONS.mail} ${c.email}</a>
-    <a href="tel:${c.phone.replace(/\s+/g,'')}">${ICONS.phone} ${c.phone}</a>
+    <a href="mailto:${c.email}">${ICONS.mail} Email</a>
+    <a href="tel:${c.phone.replace(/\s+/g,'')}">${ICONS.phone} Phone</a>
     <span>${ICONS.pin} ${c.location}</span>
-    <a href="https://${c.linkedin}" target="_blank" rel="noopener">${ICONS.linkedin} ${c.linkedin}</a>
-    <a href="${c.github}" target="_blank" rel="noopener">${ICONS.github} github.com/AiGuan01</a>
+    <a href="https://${c.linkedin}" target="_blank" rel="noopener">${ICONS.linkedin}linkedin</a>
+    <a href="${c.github}" target="_blank" rel="noopener">${ICONS.github} Github</a>
   `;
 }
 
