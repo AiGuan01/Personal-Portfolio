@@ -123,7 +123,8 @@ const CONTENT = {
       email: "guanai0912@gmail.com",
       phone: "+43 665 6517 9669",
       location: "Vienna, Austria",
-      linkedin: "linkedin.com/in/ai-guan-"
+      linkedin: "linkedin.com/in/ai-guan-",
+      github: "https://github.com/AiGuan01"
     },
     footer: { cv:"Download full CV (PDF)", copyright:"© 2026 Ai Guan. All rights reserved." }
   },
@@ -233,7 +234,8 @@ const CONTENT = {
       email: "guanai0912@gmail.com",
       phone: "+43 665 6517 9669",
       location: "维也纳，奥地利",
-      linkedin: "linkedin.com/in/ai-guan-"
+      linkedin: "linkedin.com/in/ai-guan-",
+      github: "https://github.com/AiGuan01"
     },
     footer: { cv:"下载完整简历（PDF）", copyright:"© 2026 关艾 版权所有" }
   },
@@ -343,7 +345,8 @@ const CONTENT = {
       email: "guanai0912@gmail.com",
       phone: "+43 665 6517 9669",
       location: "Wien, Österreich",
-      linkedin: "linkedin.com/in/ai-guan-"
+      linkedin: "linkedin.com/in/ai-guan-",
+      github: "https://github.com/AiGuan01"
     },
     footer: { cv:"Vollständigen Lebenslauf herunterladen (PDF)", copyright:"© 2026 Ai Guan. Alle Rechte vorbehalten." }
   }
@@ -520,6 +523,7 @@ function renderContact(lang){
     <a href="tel:${c.phone.replace(/\s+/g,'')}">${ICONS.phone} ${c.phone}</a>
     <span>${ICONS.pin} ${c.location}</span>
     <a href="https://${c.linkedin}" target="_blank" rel="noopener">${ICONS.linkedin} ${c.linkedin}</a>
+    <a href="${c.github}" target="_blank" rel="noopener">${ICONS.github} github.com/AiGuan01</a>
   `;
 }
 
