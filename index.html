@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ai Guan — Data Analyst &amp; Business Informatics</title>
+<meta name="description" content="Portfolio of Ai Guan — Business Informatics student specializing in Data Science, Power BI and Excel analytics.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=Noto+Sans+SC:wght@400;500;600&family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>
+  /* Apply saved theme before paint to avoid flash */
+  (function(){
+    var t = localStorage.getItem('ag-theme');
+    if(t === 'dark'){ document.documentElement.classList.add('dark'); }
+  })();
+</script>
+</head>
+<body>
+
+<!-- Top-right controls: language switch + theme toggle -->
+<div class="topbar-controls">
+  <div class="langswitch" role="group" aria-label="Language switch">
+    <button data-lang="de" type="button">DE</button>
+    <button data-lang="en" type="button">EN</button>
+    <button data-lang="zh" type="button">中文</button>
+  </div>
+  <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">
+    <svg class="icon-sun" viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"></circle><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8L6 18M18 6l1.8-1.8"></path></svg>
+    <svg class="icon-moon" viewBox="0 0 24 24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4 6.5 6.5 0 0 0 20 14.5Z"></path></svg>
+  </button>
+</div>
+
+<!-- Mobile navigation drawer -->
+<nav class="mobile-drawer" id="mobileDrawer" aria-label="Mobile navigation">
+  <a href="#about" data-i18n="nav.about" data-drawer-link>About</a>
+  <a href="#experience" data-i18n="nav.experience" data-drawer-link>Experience</a>
+  <a href="#projects" data-i18n="nav.projects" data-drawer-link>Projects</a>
+  <a href="#education" data-i18n="nav.education" data-drawer-link>Education</a>
+  <a href="#engagement" data-i18n="nav.engagement" data-drawer-link>Engagement</a>
+  <a href="#certificates" data-i18n="nav.certificates" data-drawer-link>Certificates</a>
+  <a href="#skills" data-i18n="nav.skills" data-drawer-link>Skills</a>
+  <a href="#contact" data-i18n="nav.contact" data-drawer-link>Contact</a>
+</nav>
+
+<header class="site-header">
+  <div class="wrap navbar">
+    <a href="#top" class="brand"><span class="brand-dot"></span><span>AI GUAN</span></a>
+    <nav class="navlinks" aria-label="Primary navigation">
+      <a href="#about" data-i18n="nav.about" data-nav-link>About</a>
+      <a href="#experience" data-i18n="nav.experience" data-nav-link>Experience</a>
+      <a href="#projects" data-i18n="nav.projects" data-nav-link>Projects</a>
+      <a href="#education" data-i18n="nav.education" data-nav-link>Education</a>
+      <a href="#engagement" data-i18n="nav.engagement" data-nav-link>Engagement</a>
+      <a href="#certificates" data-i18n="nav.certificates" data-nav-link>Certificates</a>
+      <a href="#skills" data-i18n="nav.skills" data-nav-link>Skills</a>
+      <a href="#contact" data-i18n="nav.contact" data-nav-link>Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobileDrawer">
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+  <div class="wrap">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="reveal is-visible">
+        <div class="eyebrow mono" data-i18n-html="hero.eyebrowHTML"><span>Data Analytics</span><span>Business Operations</span></div>
+        <h1 data-i18n-html="hero.headlineHTML">Ai Guan —<br><span class="accent-line">Data is decision.</span></h1>
+        <p class="lede" data-i18n="hero.lede">Business Informatics student, specializing in Data Science.</p>
+        <div class="actions">
+          <a href="assets/Ai-Guan-CV.pdf" class="btn solid" id="heroCvBtn" data-i18n="hero.cvBtn" download>Download CV</a>
+          <a href="#contact" class="btn ghost" data-i18n="hero.contactBtn">Contact me</a>
+        </div>
+        <div class="availability">
+          <span class="dot"></span>
+          <span data-i18n="hero.availability">Available for internship</span>
+        </div>
+      </div>
+      <div class="portrait-frame">
+        <div class="frame-img">
+          <img src="img/portrait.jpg" alt="Portrait of Ai Guan" id="portraitImg">
+        </div>
+        <div class="portrait-cap mono" data-i18n="hero.location">Vienna, Austria</div>
+      </div>
+    </section>
+
+    <hr class="rule">
+
+    <!-- About -->
+    <section id="about">
+      <div class="section-head reveal">
+        <div>
+          <span class="kicker mono" data-i18n="about.kicker">01 — Profile</span>
+          <h2 data-i18n="about.title">About</h2>
+        </div>
+      </div>
+      <div class="about-grid reveal">
+        <div class="about-portrait">
+          <img src="img/portrait.jpg" alt="Ai Guan">
+        </div>
+        <div class="about-copy">
+          <p data-i18n="about.p1">—</p>
+          <p data-i18n="about.p2">—</p>
+          <div class="about-stats" id="aboutStats"></div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="rule">
+
+    <!-- Experience -->
+    <section id="experience">
+      <div class="section-head reveal">
+        <div>
+          <span class="kicker mono" data-i18n="experience.kicker">02 — Career</span>
+          <h2 data-i18n="experience.title">Experience</h2>
+        </div>
+      </div>
+      <div class="accordion-list reveal" id="experienceList"></div>
+    </section>
+
+    <hr class="rule">
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="section-head reveal">
+        <div>
+          <span class="kicker mono" data-i18n="projects.kicker">03 — Work</span>
+          <h2 data-i18n="projects.title">Projects</h2>
+        </div>
+      </div>
+      <div class="accordion-list reveal" id="projectsList"></div>
+    </section>
+
+    <hr class="rule">
+
+    <!-- Education -->
+    <section id="education">
+      <div class="section-head reveal">
+        <div>
+          <span class="kicker mono" data-i18n="education.kicker">04 — Foundation</span>
+          <h2 data-i18n="education.title">Education</h2>
+        </div>
+      </div>
+      <div class="accordion-list reveal" id="educationList"></div>
+    </section>
+
+    <hr class="rule">
+
+    <!-- Engagement & Activities -->
+    <section id="engagement">
+      <div class="section-head reveal">
+        <div>
+          <span class="kicker mono" data-i18n="engagement.kicker">06 — Feedback Loop</span>
+          <h2 data-i18n="engagement.title">Engagement &amp; Activities</h2>
+        </div>
+      </div>
+      <div class="accordion-list reveal" id="engagementList"></div>
+    </section>
+
+    <hr class="rule">
+
+    <!-- Certificates -->
+    <section id="certificates">
+      <div class="section-head reveal">
+        <div>
+          <span class="kicker mono" data-i18n="certificates.kicker">05 — Verified</span>
+          <h2 data-i18n="certificates.title">Certificates</h2>
+        </div>
+      </div>
+      <div class="cert-grid reveal reveal-stagger" id="certGrid"></div>
+    </section>
+
+    <hr class="rule">
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="section-head reveal">
+        <div>
+          <span class="kicker mono" data-i18n="skills.kicker">06 — Toolkit</span>
+          <h2 data-i18n="skills.title">Skills</h2>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="skill-card" style="margin-bottom:1.6rem;">
+          <h4 data-i18n="skills.languagesLabel">Languages</h4>
+          <div class="lang-grid" id="langGrid"></div>
+        </div>
+        <div class="skills-groups" id="skillGroups"></div>
+      </div>
+    </section>
+
+    <hr class="rule">
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="contact-band reveal">
+        <h2 data-i18n-html="contact.headlineHTML">Let's talk <em>data</em>.</h2>
+        <div class="contact-links" id="contactLinks"></div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <a class="footer-cv" href="assets/Ai-Guan-CV.pdf" id="footerCvBtn" download data-i18n="footer.cv">Download full CV (PDF)</a>
+  <span data-i18n="footer.copyright">© 2026 Ai Guan. All rights reserved.</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
