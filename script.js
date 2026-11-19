@@ -40,15 +40,35 @@ const CONTENT = {
       kicker: "02 — Process",
       title: "Experience",
       items: [
-        { date:"09/2026 – 09/2026", role:"Internship", org:"Asset Management", loc:"Bangkok, Thailand", bullets:[], tag:"Working language: English" },
-        { date:"06/2026 – 08/2026", role:"Business Operations &amp; Support Intern (Individual Insurance)", org:"Beijing Life Insurance Co., Ltd. · Headquarters", loc:"Beijing, China",
+        { date:"11/2026 – 01/2027", role:"AI Testing &amp; Evaluation (Conversational AI) · WU Data Science Lab", org:"UniCredit Bank Austria AG", loc:"Vienna, Austria",
           bullets:[
-            "Conducted market, competitor, and internal company analyses using Power BI; built data-driven dashboards and management reports",
-            "Modeled commission and compensation structures in Excel, deepening analytical and quantitative skills",
-            "Gained working knowledge of insurance products, industry practices, and internal management processes for external distribution partners",
-            "Supported analysis of operational KPIs and identified optimization potential in internal business processes"
+            "Contributing to a prototype automated testing and governance framework for the bank's chatbot, as part of WU's Data Science Lab",
+            "Creating synthetic customer journeys and conversational test scenarios",
+            "Analyzing failure patterns to derive prompt optimization recommendations",
+            "Working with anonymized and synthetic data under banking secrecy and data protection requirements"
+          ], tag:"Working language: German / English" },
+        { date:"09/2026", role:"Intern – Business Analyst", org:"First Plus Asset Management (Thailand) Co., Ltd.", loc:"Bangkok, Thailand",
+          bullets:[
+            "Web &amp; AI project: maintained and optimized the company's web platform, took part in AI-driven optimization and design, and supported selected programming and development tasks",
+            "Business development: conducted market research and analysis on Thailand's Provident Fund (PVD) and Employee Welfare Fund (EWF) markets",
+            "Took part in business development strategy discussions and supported the development of market strategies and implementation plans"
+          ], tag:"Working language: English" },
+        { date:"06/2026 – 08/2026", role:"Intern – Business Operations &amp; Data Analytics", org:"Beijing Life Insurance Co., Ltd. · Head Office", loc:"Beijing, China",
+          bullets:[
+            "Built market, competitor, and corporate analysis dashboards and management reports in Power BI",
+            "Modeled commission and compensation structures in Excel and ran performance, promotion, and pay simulations for sales staff",
+            "Analyzed operational KPIs and business processes to identify optimization opportunities",
+            "Gained working knowledge of insurance products, retail client business, reinsurance, contracts, organizational structure, and regulatory supervision",
+            "Helped organize and run a company-wide semi-annual sales conference (~50 participants), including meeting materials, summaries, and event documentation",
+            "Assisted in preparing and recording training courses for new sales hires"
           ], tag:"Working language: Mandarin" },
-        { date:"02/2025 – 10/2025", role:"Front/Back Office Associate", org:"ProStaff GmbH", loc:"Vienna, Austria",
+        { date:"08/2025", role:"Intern – Business Support (hybrid)", org:"Beijing Alphas Investment Management Co., Ltd.", loc:"Beijing, China",
+          bullets:[
+            "Contributed to the strategy optimization project of the Yiqing Quantitative Select Private Securities Investment Fund (fund code: SAUP30)",
+            "Assisted with data collection, statistical analysis, and quantitative research; organized and maintained project documentation",
+            "Supported client communication and relationship management to help the project run smoothly"
+          ], tag:"Working language: Mandarin" },
+        { date:"02/2025 – 11/2025", role:"Front/Back Office Associate", org:"ProStaff GmbH", loc:"Vienna, Austria",
           bullets:[
             "Coordinated staff scheduling and deployment; processed customer orders and repeat orders",
             "Prepared and reviewed employment contracts; provided administrative support to the back office",
@@ -73,7 +93,7 @@ const CONTENT = {
       kicker: "04 — Training",
       title: "Education",
       items: [
-        { date:"09/2022 – present", school:"WU Vienna (Wirtschaftsuniversität Wien)", org:"Bachelor of Arts in Business, Economics and Social Sciences · Track: Business Informatics · Specialization: Data Science", note:"Coursework spans the shared foundations, the cross-degree Common Body of Knowledge, and the Business Informatics track, grouped by stage below.",
+        { date:"09/2022 – 05/2027 (expected)", school:"WU Vienna (Wirtschaftsuniversität Wien)", org:"Bachelor of Arts in Business, Economics and Social Sciences · Track: Business Informatics · Specializations: Data Science, Decision Science", note:"Coursework spans the shared foundations, the cross-degree Common Body of Knowledge, and the Business Informatics track, grouped by stage below.",
           courseGroups: [
             { label:"Foundations (STEOP)", items:["Introduction to Business Administration","Principles of Economics","Business in its Legal Context: European &amp; Public Economic Law I","Mathematics"] },
             { label:"Common Body of Knowledge", items:["Accounting &amp; Management Control I &amp; II","Business Information Systems I","Applied Microeconomics","International Macroeconomics","Business Private Law I","Statistics","Introduction to Business Communication","Sustainable Business I"] },
@@ -110,10 +130,10 @@ const CONTENT = {
       kicker: "07 — Stack",
       title: "Skills",
       languagesLabel: "Languages",
-      langs: [ {name:"Mandarin", tag:"Native"}, {name:"German", tag:"C1"}, {name:"English", tag:"C1"}, {name:"Spanish", tag:"B1"} ],
+      langs: [ {name:"Mandarin", tag:"Native"}, {name:"German", tag:"C2"}, {name:"English", tag:"C1"}, {name:"Spanish", tag:"B1"} ],
       groups: [
         { label:"Analytics", pills:["Power BI","Excel","Power Query"] },
-        { label:"Programming &amp; Tools", pills:["Python","SQL","MySQL","HTML","CSS","PHP","Scratch","MS Office"] },
+        { label:"Programming &amp; Tools", pills:["Python","R","SQL","MySQL","HTML","CSS","PHP","Scratch","MS Office"] },
         { label:"Business", pills:["Business Analysis","Business Process Management","Project Planning &amp; Organization","Data Analysis &amp; Preparation"] },
         { label:"Interests", pills:["Social Engagement","Cultural Exchange","Personal Development","Fitness"] }
       ]
@@ -151,15 +171,35 @@ const CONTENT = {
       kicker: "02 — 处理",
       title: "工作经历",
       items: [
-        { date:"2026.09 – 2026.09", role:"实习", org:"Asset Management", loc:"泰国 曼谷", bullets:[], tag:"工作语言：英语" },
-        { date:"2026.06 – 2026.08", role:"业务运营支持实习生（个人保险）", org:"北京人寿保险股份有限公司 · 总部", loc:"中国 北京",
+        { date:"2026.11 – 2027.01", role:"AI 测试与评估（对话式 AI）· WU 数据科学实验室", org:"UniCredit Bank Austria AG（奥地利联合信贷银行）", loc:"奥地利 维也纳",
           bullets:[
-            "使用 Power BI 完成市场、竞品及公司层面分析，搭建数据驱动的仪表盘与管理报告",
-            "使用 Excel 建立多种佣金与薪酬结构模型，深化分析与量化能力",
-            "系统学习各类保险产品及行业知识，掌握面向外部销售伙伴的内部政策与管理流程",
-            "协助分析运营关键指标，识别内部业务流程的优化空间"
+            "依托 WU 数据科学实验室，参与为银行聊天机器人搭建自动化测试与治理框架原型",
+            "设计合成客户旅程与对话测试场景",
+            "分析失败模式，提出提示词（Prompt）优化建议",
+            "在银行保密与数据保护要求下，使用匿名化及合成数据开展工作"
+          ], tag:"工作语言：德语 / 英语" },
+        { date:"2026.09", role:"业务分析实习生", org:"First Plus Asset Management (Thailand) Co., Ltd.", loc:"泰国 曼谷",
+          bullets:[
+            "网站与 AI 项目：维护并优化公司网站平台，参与 AI 驱动的优化与设计，支持部分编程与开发任务",
+            "业务拓展：针对泰国公积金（PVD）与员工福利基金（EWF）开展市场调研与分析",
+            "参与业务拓展策略讨论，协助制定市场策略及实施方案"
+          ], tag:"工作语言：英语" },
+        { date:"2026.06 – 2026.08", role:"业务运营与数据分析实习生", org:"北京人寿保险股份有限公司 · 总部", loc:"中国 北京",
+          bullets:[
+            "使用 Power BI 搭建市场、竞品及公司分析仪表盘与管理报告",
+            "使用 Excel 建立佣金与薪酬结构模型，并为销售人员开展业绩、晋升及薪酬模拟测算",
+            "分析运营关键指标与业务流程，识别优化空间",
+            "系统了解保险产品、个人客户业务、再保险、合同、组织架构及监管要求",
+            "协助筹备并举办公司半年度销售大会（约50人），负责会议材料、会议纪要及活动记录",
+            "协助新入职销售人员培训课程的准备与录制"
           ], tag:"工作语言：中文" },
-        { date:"2025.02 – 2025.10", role:"前后台业务专员", org:"ProStaff GmbH", loc:"奥地利 维也纳",
+        { date:"2025.08", role:"业务支持实习生（线上线下结合）", org:"北京宜庆投资管理有限公司（Beijing Alphas Investment Management）", loc:"中国 北京",
+          bullets:[
+            "参与宜庆量化精选私募证券投资基金（基金代码：SAUP30）的策略优化项目",
+            "协助数据收集、统计分析与量化研究，整理并维护项目相关文档",
+            "协助客户沟通与关系维护，保障项目顺利推进"
+          ], tag:"工作语言：中文" },
+        { date:"2025.02 – 2025.11", role:"前后台业务专员", org:"ProStaff GmbH", loc:"奥地利 维也纳",
           bullets:[
             "负责人员排班协调，处理客户订单与追加订单",
             "制作与审核劳动合同，为后台部门提供行政支持",
@@ -184,7 +224,7 @@ const CONTENT = {
       kicker: "04 — 训练",
       title: "教育背景",
       items: [
-        { date:"2022.09 – 至今", school:"维也纳经济大学（Wirtschaftsuniversität Wien）", org:"商业与社会科学学士 · 专业方向：商业信息学 · 专精：数据科学", note:"课程涵盖入门必修课、跨专业共同核心课程（CBK），以及商业信息学专业课程，按阶段分类如下：",
+        { date:"2022.09 – 2027.05（预计）", school:"维也纳经济大学（Wirtschaftsuniversität Wien）", org:"商业与社会科学学士 · 专业方向：商业信息学 · 专精：数据科学、决策科学", note:"课程涵盖入门必修课、跨专业共同核心课程（CBK），以及商业信息学专业课程，按阶段分类如下：",
           courseGroups: [
             { label:"入门必修课（STEOP）", items:["企业管理学导论","国民经济学基础","法律语境下的商业：欧盟与公共经济法 I","数学"] },
             { label:"共同核心课程（CBK）", items:["会计与管理控制 I & II","企业信息系统 I","应用微观经济学","国际宏观经济学","经济私法 I","统计学","商务沟通导论","可持续经营 I"] },
@@ -221,10 +261,10 @@ const CONTENT = {
       kicker: "07 — 技术栈",
       title: "技能",
       languagesLabel: "语言",
-      langs: [ {name:"中文", tag:"母语"}, {name:"德语", tag:"C1"}, {name:"英语", tag:"C1"}, {name:"西班牙语", tag:"B1"} ],
+      langs: [ {name:"中文", tag:"母语"}, {name:"德语", tag:"C2"}, {name:"英语", tag:"C1"}, {name:"西班牙语", tag:"B1"} ],
       groups: [
         { label:"数据分析", pills:["Power BI","Excel","Power Query"] },
-        { label:"编程与工具", pills:["Python","SQL","MySQL","HTML","CSS","PHP","Scratch","MS Office"] },
+        { label:"编程与工具", pills:["Python","R","SQL","MySQL","HTML","CSS","PHP","Scratch","MS Office"] },
         { label:"商业能力", pills:["商业分析","业务流程管理","项目规划与组织","数据分析与整理"] },
         { label:"兴趣爱好", pills:["社会公益","跨文化交流","个人成长","健身"] }
       ]
@@ -262,15 +302,35 @@ const CONTENT = {
       kicker: "02 — Verarbeitung",
       title: "Berufserfahrung",
       items: [
-        { date:"09/2026 – 09/2026", role:"Praktikum", org:"Asset Management", loc:"Bangkok, Thailand", bullets:[], tag:"Arbeitssprache: Englisch" },
-        { date:"06/2026 – 08/2026", role:"Praktikantin – Business Operations/Support (Individualversicherung)", org:"Beijing Life Insurance Co., Ltd. · Hauptverwaltung", loc:"Peking, China",
+        { date:"11/2026 – 01/2027", role:"AI Testing &amp; Evaluation (Conversational AI) · WU Data Science Lab", org:"UniCredit Bank Austria AG", loc:"Wien, Österreich",
           bullets:[
-            "Durchführung von Markt-, Wettbewerbs- sowie Unternehmensanalysen mit Power BI und Erstellung datenbasierter Dashboards und Managementberichte",
-            "Analyse und Modellierung verschiedener Provisions- und Vergütungsstrukturen mit Excel zur Vertiefung analytischer und quantitativer Kompetenzen",
-            "Einarbeitung in verschiedene Versicherungsprodukte sowie interne Richtlinien und Managementprozesse für externe Vertriebspartner",
-            "Unterstützung bei der Analyse operativer Kennzahlen sowie bei der Identifikation von Optimierungspotenzialen in internen Geschäftsprozessen"
+            "Mitarbeit an einem Prototyp eines automatisierten Test- und Governance-Frameworks für den Chatbot der Bank im Rahmen des Data Science Lab der WU",
+            "Erstellung synthetischer Customer Journeys und konversationeller Testszenarien",
+            "Analyse von Fehlermustern und Ableitung von Empfehlungen zur Prompt-Optimierung",
+            "Arbeit mit anonymisierten bzw. synthetischen Daten unter Einhaltung von Bankgeheimnis und Datenschutz"
+          ], tag:"Arbeitssprache: Deutsch / Englisch" },
+        { date:"09/2026", role:"Praktikum – Business Analyst", org:"First Plus Asset Management (Thailand) Co., Ltd.", loc:"Bangkok, Thailand",
+          bullets:[
+            "Web- &amp; KI-Projekt: Betreuung, Pflege und Optimierung der Unternehmenswebsite; Mitwirkung bei der KI-gestützten Optimierung und Gestaltung der Webplattform; Unterstützung bei ausgewählten Programmier- und Entwicklungsaufgaben",
+            "Business Development: Marktanalysen und Recherchen zu Provident Fund (PVD) und Employee Welfare Fund (EWF) in Thailand",
+            "Teilnahme an Diskussionen zu Business-Development-Strategien sowie Unterstützung bei der Entwicklung von Marktstrategien und Umsetzungsplänen"
+          ], tag:"Arbeitssprache: Englisch" },
+        { date:"06/2026 – 08/2026", role:"Praktikum – Business Operations &amp; Data Analyst", org:"Beijing Life Insurance Co., Ltd. · Hauptverwaltung", loc:"Peking, China",
+          bullets:[
+            "Erstellung von Dashboards und Management-Reports zur Markt-, Wettbewerbs- und Unternehmensanalyse mit Microsoft Power BI",
+            "Modellierung von Provisions- und Vergütungsstrukturen sowie Leistungs-, Beförderungs- und Vergütungssimulationen für Vertriebsmitarbeiter mit Microsoft Excel",
+            "Analyse operativer KPIs und Geschäftsprozesse zur Identifizierung von Optimierungs- und Verbesserungspotenzialen",
+            "Praxisnahe Kenntnisse in Versicherungsprodukten, Privatkundengeschäft, Rückversicherung, Vertragswesen, Organisationsstrukturen und regulatorischer Aufsicht",
+            "Mitorganisation einer unternehmensweiten halbjährlichen Vertriebskonferenz (ca. 50 Teilnehmende) inkl. Sitzungsunterlagen, Zusammenfassungen und Veranstaltungsdokumentation",
+            "Unterstützung bei der Vorbereitung und Aufzeichnung von Schulungen für neue Vertriebsmitarbeiter"
           ], tag:"Arbeitssprache: Chinesisch" },
-        { date:"02/2025 – 10/2025", role:"Front/Back Office Mitarbeiterin", org:"ProStaff GmbH", loc:"Wien, Österreich",
+        { date:"08/2025", role:"Praktikantin – Business Support (hybrid)", org:"Beijing Alphas Investment Management Co., Ltd.", loc:"Peking, China",
+          bullets:[
+            "Unterstützung bei einem Strategieoptimierungsprojekt des Yiqing Quantitative Select Private Securities Investment Fund (Fonds-Code: SAUP30)",
+            "Datenerhebung, statistische Analyse und quantitative Recherche sowie strukturierte Pflege projektbezogener Unterlagen",
+            "Unterstützung bei Kundenkommunikation und Relationship Management"
+          ], tag:"Arbeitssprache: Chinesisch" },
+        { date:"02/2025 – 11/2025", role:"Front/Back Office Mitarbeiterin", org:"ProStaff GmbH", loc:"Wien, Österreich",
           bullets:[
             "Koordination und Einsatzplanung von Personal, Bearbeitung von Kundenbestellungen und Nachbestellungen",
             "Erstellung und Kontrolle von Arbeitsverträgen sowie administrative Unterstützung des Back Office",
@@ -295,7 +355,7 @@ const CONTENT = {
       kicker: "04 — Training",
       title: "Ausbildung",
       items: [
-        { date:"09/2022 – heute", school:"WU Wien (Wirtschaftsuniversität Wien)", org:"Bachelor of Arts in Wirtschafts- und Sozialwissenschaften · Studienzweig Wirtschaftsinformatik · Spezialisierung: Data Science", note:"Die Lehrveranstaltungen gliedern sich in die STEOP, den fächerübergreifenden Common Body of Knowledge (CBK) und den Studienzweig Wirtschaftsinformatik:",
+        { date:"09/2022 – 05/2027 (voraussichtlich)", school:"WU Wien (Wirtschaftsuniversität Wien)", org:"Bachelor of Arts in Wirtschafts- und Sozialwissenschaften · Studienzweig Wirtschaftsinformatik · Spezialisierungen: Data Science, Decision Science", note:"Die Lehrveranstaltungen gliedern sich in die STEOP, den fächerübergreifenden Common Body of Knowledge (CBK) und den Studienzweig Wirtschaftsinformatik:",
           courseGroups: [
             { label:"Grundlagen (STEOP)", items:["Einführung in die Betriebswirtschaftslehre","Grundlagen der VWL","Wirtschaft im rechtlichen Kontext I","Mathematik"] },
             { label:"Common Body of Knowledge", items:["Accounting &amp; Management Control I &amp; II","Betriebliche Informationssysteme I","Angewandte Mikroökonomik","Internationale Makroökonomik","Wirtschaftsprivatrecht I","Statistik","Introduction to Business Communication","Zukunftsfähiges Wirtschaften I"] },
@@ -332,10 +392,10 @@ const CONTENT = {
       kicker: "07 — Stack",
       title: "Fähigkeiten & Kenntnisse",
       languagesLabel: "Sprachen",
-      langs: [ {name:"Chinesisch", tag:"Muttersprache"}, {name:"Deutsch", tag:"C1"}, {name:"Englisch", tag:"C1"}, {name:"Spanisch", tag:"B1"} ],
+      langs: [ {name:"Chinesisch", tag:"Muttersprache"}, {name:"Deutsch", tag:"C2"}, {name:"Englisch", tag:"C1"}, {name:"Spanisch", tag:"B1"} ],
       groups: [
         { label:"Analytics", pills:["Power BI","Excel","Power Query"] },
-        { label:"Programmierung &amp; Tools", pills:["Python","SQL","MySQL","HTML","CSS","PHP","Scratch","MS Office"] },
+        { label:"Programmierung &amp; Tools", pills:["Python","R","SQL","MySQL","HTML","CSS","PHP","Scratch","MS Office"] },
         { label:"Business", pills:["Business Analysis","Geschäftsprozessmanagement","Projektplanung &amp; Organisation","Datenanalyse &amp; -aufbereitung"] },
         { label:"Interessen", pills:["Soziales Engagement","Kultureller Austausch","Persönlichkeitsentwicklung","Fitness"] }
       ]
