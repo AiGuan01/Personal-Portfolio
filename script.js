@@ -42,10 +42,7 @@ const CONTENT = {
       items: [
         { date:"11/2026 – 01/2027", role:"AI Testing &amp; Evaluation (Conversational AI) · WU Data Science Lab", org:"UniCredit Bank Austria AG", loc:"Vienna, Austria",
           bullets:[
-            "Contributing to a prototype automated testing and governance framework for the bank's chatbot, as part of WU's Data Science Lab",
-            "Creating synthetic customer journeys and conversational test scenarios",
-            "Analyzing failure patterns to derive prompt optimization recommendations",
-            "Working with anonymized and synthetic data under banking secrecy and data protection requirements"
+            "Developing an LLM-as-a-Judge pipeline to evaluate failed test cases of the bank's customer-service chatbot — using retrieval-augmented generation (RAG), automated scoring, and error clustering"
           ], tag:"Working language: German / English" },
         { date:"09/2026", role:"Intern – Business Analyst", org:"First Plus Asset Management (Thailand) Co., Ltd.", loc:"Bangkok, Thailand",
           bullets:[
@@ -173,10 +170,7 @@ const CONTENT = {
       items: [
         { date:"2026.11 – 2027.01", role:"AI 测试与评估（对话式 AI）· WU 数据科学实验室", org:"UniCredit Bank Austria AG（奥地利联合信贷银行）", loc:"奥地利 维也纳",
           bullets:[
-            "依托 WU 数据科学实验室，参与为银行聊天机器人搭建自动化测试与治理框架原型",
-            "设计合成客户旅程与对话测试场景",
-            "分析失败模式，提出提示词（Prompt）优化建议",
-            "在银行保密与数据保护要求下，使用匿名化及合成数据开展工作"
+            "开发 LLM-as-a-Judge 流水线，用于评估银行客服聊天机器人未通过的测试用例，结合检索增强生成（RAG）、自动化评分与错误聚类"
           ], tag:"工作语言：德语 / 英语" },
         { date:"2026.09", role:"业务分析实习生", org:"First Plus Asset Management (Thailand) Co., Ltd.", loc:"泰国 曼谷",
           bullets:[
@@ -304,10 +298,7 @@ const CONTENT = {
       items: [
         { date:"11/2026 – 01/2027", role:"AI Testing &amp; Evaluation (Conversational AI) · WU Data Science Lab", org:"UniCredit Bank Austria AG", loc:"Wien, Österreich",
           bullets:[
-            "Mitarbeit an einem Prototyp eines automatisierten Test- und Governance-Frameworks für den Chatbot der Bank im Rahmen des Data Science Lab der WU",
-            "Erstellung synthetischer Customer Journeys und konversationeller Testszenarien",
-            "Analyse von Fehlermustern und Ableitung von Empfehlungen zur Prompt-Optimierung",
-            "Arbeit mit anonymisierten bzw. synthetischen Daten unter Einhaltung von Bankgeheimnis und Datenschutz"
+            "Entwicklung einer LLM-as-a-Judge-Pipeline zur Auswertung fehlgeschlagener Testfälle des Kundenservice-Chatbots der Bank – mit Retrieval-Augmented Generation (RAG), automatisierter Bewertung und Fehler-Clustering"
           ], tag:"Arbeitssprache: Deutsch / Englisch" },
         { date:"09/2026", role:"Praktikum – Business Analyst", org:"First Plus Asset Management (Thailand) Co., Ltd.", loc:"Bangkok, Thailand",
           bullets:[
